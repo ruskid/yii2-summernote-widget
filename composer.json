@@ -26,9 +26,9 @@
     },
     "require": {
         "yiisoft/yii2": "~2",
-        "bower-asset/fontawesome": "~4@stable",
-        "bower-asset/codemirror": "@stable",
-        "bower-asset/summernote": "~0.5@stable"
+        "bower-asset/fontawesome": "4.*@stable",
+        "bower-asset/codemirror": "5.*@stable",
+        "bower-asset/summernote": "0.*@stable"
     },
     "autoload": {
         "psr-4": {
@@ -37,7 +37,8 @@
     },
     "extra": {
         "asset-installer-paths": {
-            "npm-asset-library": "vendor/npm", "bower-asset-library": "vendor/bower"
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
         }
     }
 }
