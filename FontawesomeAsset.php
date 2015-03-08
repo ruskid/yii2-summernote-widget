@@ -7,7 +7,7 @@ use yii\web\AssetBundle;
 class FontawesomeAsset extends AssetBundle
 {
     /** @var string */
-    public $sourcePath = '@bower/fontawesome';
+    public $sourcePath = '@bower/font-awesome';
     /** @var array */
     public $depends = [
         'yii\bootstrap\BootstrapAsset'
