@@ -12,6 +12,7 @@
     "homepage": "https://github.com/zelenin/yii2-summernote-widget",
     "time": "2015-03-08",
     "license": "MIT",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Aleksandr Zelenin",
@@ -27,7 +28,7 @@
     "require": {
         "yiisoft/yii2": "~2",
         "bower-asset/font-awesome": "4.*@stable",
-        "bower-asset/codemirror": "5.0.1",
+        "bower-asset/codemirror": "5.*@stable",
         "bower-asset/summernote": "0.*@stable"
     },
     "autoload": {
